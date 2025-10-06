@@ -7,6 +7,12 @@ This repository contains a project focused on **Time Series Forecast Analysis** 
 - Compare the performance of machine learning models against **classical ARIMA models**.  
 - Select the best-fit model that maximizes **forecast accuracy** using statistical metrics.
 
+## Data Source 
+The dataset is private industrial data containing:
+-single response variable
+-Four predictor variables
+The data is used to train the decision tree model and evaluate forecast accuracy against ARIMA benchmarks.
+
 ## Features
 - Data cleaning and preprocessing of date-time data.    
 - Implementation of a **Decision Tree–based forecasting model**:
