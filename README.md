@@ -26,3 +26,21 @@ The data is used to train the decision tree model and evaluate forecast accuracy
 - **Tidyverse / ggplot2** 
 - **Forecast / Prophet / caret / keras** 
 - **Time Series and Machine Learning libraries**
+
+## Results and Key Insights
+- **Data Preprocessing is Critical:**  
+  Since machine learning models like decision trees do not inherently capture the temporal order of time series data, careful preprocessing is essential. Transformations, lag features, and proper handling of date-time information significantly impact model performance.  
+
+- **Feature Selection Matters:**  
+  Selecting the most important predictors based on variable importance improves model accuracy. In time series data, irrelevant or redundant features can lead to poor forecasts.  
+
+- **Limitations of Decision Trees for Time Series:**  
+  - Decision trees struggle to capture sequential dependencies and temporal trends.  
+  - They may fail to identify peaks and troughs accurately in the response variable.  
+
+- **Forecast Performance:**  
+  Despite these limitations, the tuned decision tree model with carefully engineered features provides a significant improvement over naive approaches and serves as a strong baseline when compared to classical ARIMA models.  
+
+- **Model Insights:**  
+  Visualizations of predicted vs. actual values highlight how preprocessing and feature selection help the model better capture trends, even if extreme peaks are sometimes missed.
+
