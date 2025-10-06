@@ -8,9 +8,7 @@ This repository contains a project focused on **Time Series Forecast Analysis** 
 - Select the best-fit model that maximizes **forecast accuracy** using statistical metrics.
 
 ## Data Source 
-The dataset is private industrial data containing:
--single response variable
--Four predictor variables
+The dataset is private industrial data containing: single response variable and four predictor variables.
 The data is used to train the decision tree model and evaluate forecast accuracy against ARIMA benchmarks.
 
 ## Features
